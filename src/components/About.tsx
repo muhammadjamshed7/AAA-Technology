@@ -33,11 +33,7 @@ const team = [
     position: "Full Stack Developer",
     image: "/assets/images/random.jpeg",
   },
-  {
-    name: "Ali Haider",
-    position: "Backend Lead",
-    image: "/assets/images/blead.jpeg",
-  },
+  
 ];
 
 export default function About() {
