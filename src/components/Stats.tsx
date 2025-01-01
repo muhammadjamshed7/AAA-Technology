@@ -31,9 +31,9 @@ import CountUp from 'react-countup';
 import { useInView } from 'react-intersection-observer';
 
 const stats = [
-  { number: 250, label: 'Projects Delivered', suffix: '+' },
+  { number: 50, label: 'Projects Delivered', suffix: '+' },
   { number: 98, label: 'Client Satisfaction', suffix: '%' },
-  { number: 15, label: 'Years Experience', suffix: '+' },
+  { number: 5, label: 'Years Experience', suffix: '+' },
   { number: 24, label: 'Support', suffix: '/7' }
 ];
 

@@ -15,9 +15,9 @@ export default function Navbar() {
 
             <span className="text-5xl font-bold cursor-pointer text-primary">
             <img
-                src="../../assets/images/technologo-logo.png"
+                src="../../assets/images/logo.png"
                 
-                className="mt-2 h-auto w-96
+                className="mt-2 h-auto w-16
                  object-cover"
               />
             </span>
@@ -25,6 +25,12 @@ export default function Navbar() {
           </div>
 
           <div className="hidden md:flex items-center space-x-8">
+          <Link
+              to="/"
+              className="text-gray-700 hover:text-primary transition"
+            >
+              Home
+            </Link>
             <Link
               to="/services"
               className="text-gray-700 hover:text-primary transition"
@@ -66,6 +72,12 @@ export default function Navbar() {
       {isOpen && (
         <div className="md:hidden border-t border-gray-200">
           <div className="px-2 pt-2 pb-3 space-y-1 bg-white">
+            <Link
+              to="/"
+              className="block px-3 py-2 text-gray-700 hover:text-primary"
+            >
+              Home
+            </Link>
             <Link
               to="/services"
               className="block px-3 py-2 text-gray-700 hover:text-primary"

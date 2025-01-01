@@ -47,10 +47,11 @@ export default function Blog() {
           <div className="text-center">
             <span className="text-primary font-semibold tracking-wide uppercase">Blog</span>
             <h1 className="mt-4 text-4xl md:text-6xl font-bold text-gray-900 mb-6">
-              Insights and Innovations
+              Insights and <span className="text-primary">Innovations</span>
             </h1>
             <p className="text-xl text-gray-600 mb-8 max-w-2xl mx-auto">
-              Stay updated with the latest trends and insights in AI, ERP, and other cutting-edge technologies.
+            Stay informed on the latest trends in AI, ERP, and groundbreaking technologies.  
+            Explore insights that keep you ahead in the digital world.
             </p>
           </div>
         </div>
@@ -85,12 +86,12 @@ export default function Blog() {
             ))}
           </div>
           
-          <div className="text-center mt-12">
+          {/* <div className="text-center mt-12">
             <Button variant="primary" size="lg" className="group">
               View All Posts
               <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
             </Button>
-          </div>
+          </div> */}
         </div>
       </section>
     </main>

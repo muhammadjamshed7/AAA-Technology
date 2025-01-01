@@ -9,9 +9,9 @@ import UiUxDesign from './pages/services/UiUxDesign';
 import SeoServices from './pages/services/SeoServices';
 import About from './components/About';
 import OurWork from './components/OurWork';
-import ContactForm from './components/ContactCTA';
-import Services from './components/Services';
+import ContactForm from './components/ContactPage';
 import Blog from './components/Blog';
+import ServicesPage from './components/ServicesPage';
 
 function App() {
   return (
@@ -28,7 +28,7 @@ function App() {
           <Route path="/about" element={<About />} />
           <Route path="/work" element={<OurWork />} />
           <Route path="/contact" element={<ContactForm />} />
-          <Route path="/services" element={<Services />} />
+          <Route path="/services" element={<ServicesPage />} />
           <Route path="/blog" element={<Blog />} />
           
         </Routes>

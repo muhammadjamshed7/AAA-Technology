@@ -8,7 +8,13 @@ export default function Footer() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div>
-            <h3 className="text-2xl font-bold mb-4">AAA Digital</h3>
+            {/* <h3 className="text-2xl font-bold mb-4">AAA Digital</h3> */}
+            <img
+              src="../../assets/images/logo-white.png"
+              
+              className="mt-2 h-auto w-16
+                object-cover"
+            />
             <p className="text-gray-400">
               Transforming businesses through innovative digital solutions.
             </p>
@@ -34,11 +40,6 @@ export default function Footer() {
               <li>
                 <Link to="/services/web-development" className="text-gray-400 hover:text-primary transition">
                   Web Development
-                </Link>
-              </li>
-              <li>
-                <Link to="/services/mobile-apps" className="text-gray-400 hover:text-primary transition">
-                  Mobile Apps
                 </Link>
               </li>
               <li>
@@ -85,9 +86,8 @@ export default function Footer() {
             <p className="text-gray-400">contact@aaadigital.com</p>
             <p className="text-gray-400">+1 (555) 123-4567</p>
             <p className="text-gray-400 mt-4">
-              123 Tech Avenue<br />
-              San Francisco, CA 94105<br />
-              United States
+              Model Town Link Road<br />
+              Lahore, Pakistan
             </p>
           </div>
         </div>

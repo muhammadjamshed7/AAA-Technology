@@ -27,9 +27,9 @@ export default function Testimonials() {
     <section className="py-20 bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
-          <span className="text-emerald-600 font-semibold tracking-wide uppercase">Testimonials</span>
+          {/* <span className="text-emerald-600 font-semibold tracking-wide uppercase">Testimonials</span> */}
           <h2 className="mt-4 text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-            What Our Clients Say
+            What Our <span className="text-primary"> Clients Say</span>
           </h2>
           <p className="text-xl text-gray-600 max-w-2xl mx-auto">
             Don't just take our word for it - hear from some of our satisfied clients.

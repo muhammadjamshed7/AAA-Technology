@@ -34,8 +34,8 @@ export default function Hero() {
           <div className="text-center">
             <span className="text-primary font-semibold tracking-wide uppercase">Leading Digital Agency</span>
             <h1 className="mt-4 text-4xl md:text-6xl font-bold text-gray-900 mb-6">
-              Transform Your Digital
-              <span className="text-primary"> Presence</span>
+              Transform Your 
+              <span className="text-primary"> Digital Presence</span>
             </h1>
             <p className="text-xl text-gray-600 mb-8 max-w-2xl mx-auto">
               We craft exceptional digital experiences and drive growth through innovative solutions in web development, mobile apps, and digital marketing.
@@ -63,7 +63,7 @@ export default function Hero() {
       <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Our Expertise</h2>
+            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Our <span className="text-primary">Expertise</span></h2>
             <p className="text-xl text-gray-600 max-w-2xl mx-auto">
               We offer a wide range of services to help your business thrive in the digital age.
             </p>
@@ -84,15 +84,14 @@ export default function Hero() {
       <section className="bg-gradient-to-br from-gray-50 to-green-50 py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
-            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Our Mission</h2>
-            <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-              Our mission is to provide innovative solutions that drive business success. We are committed to delivering exceptional value to our clients.
+            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Our <span className="text-primary">Mission</span></h2>
+            <p className="text-xl text-gray-600 max-w-2xl mx-auto italic">
+            "Our mission is to deliver innovative, client-centric solutions that fuel business growth. We are committed to providing exceptional value, ensuring that our clients achieve long-term success in the ever-evolving digital landscape."
             </p>
           </div>
         </div>
       </section>
 
-      <ContactCTA />
     </main>
   );
 }

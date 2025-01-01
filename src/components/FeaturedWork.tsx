@@ -1,6 +1,7 @@
 import React from 'react';
 import { ArrowRight } from 'lucide-react';
 import { Button } from './ui/Button';
+import { Link } from 'react-router-dom';
 
 const projects = [
   {
@@ -28,9 +29,8 @@ export default function FeaturedWork() {
     <section className="py-20 bg-gray-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
-          <span className="text-primary font-semibold tracking-wide uppercase">Portfolio</span>
           <h2 className="mt-4 text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-            Featured Projects
+            Featured <span  className="text-primary">Projects</span>
           </h2>
           <p className="text-xl text-gray-600 max-w-2xl mx-auto">
             Explore some of our recent work and see how we've helped businesses achieve their digital goals
@@ -59,10 +59,12 @@ export default function FeaturedWork() {
         </div>
         
         <div className="text-center mt-12">
-          <Button variant="primary" size="lg" className="group">
-            View All Projects
-            <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
-          </Button>
+          <Link to="/work">
+            <Button variant="primary" size="lg" className="group">
+              View All Projects
+              <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
+            </Button>
+          </Link>
         </div>
       </div>
     </section>

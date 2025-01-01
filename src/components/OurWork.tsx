@@ -67,7 +67,7 @@ export default function OurWork() {
           <div className="text-center">
             <span className="text-primary font-semibold tracking-wide uppercase">Our Work</span>
             <h1 className="mt-4 text-4xl md:text-6xl font-bold text-gray-900 mb-6">
-              Projects We've Delivered
+              Projects We've <span className="text-primary">Delivered</span>
             </h1>
             <p className="text-xl text-gray-600 mb-8 max-w-2xl mx-auto">
               Explore some of our recent projects and see how we've helped businesses achieve their digital goals.
@@ -100,12 +100,6 @@ export default function OurWork() {
             ))}
           </div>
           
-          <div className="text-center mt-12">
-            <Button variant="primary" size="lg" className="group">
-              View All Projects
-              <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
-            </Button>
-          </div>
         </div>
       </section>
     </main>
