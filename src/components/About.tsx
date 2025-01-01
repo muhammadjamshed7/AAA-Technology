@@ -1,7 +1,6 @@
-import { ArrowRight, Briefcase, Users, Globe, Award } from 'lucide-react';
-import { Button } from './ui/Button';
+import { Briefcase, Users, Globe, Award } from "lucide-react";
 import ContactCTA from "./ContactCTA";
-import { Link } from 'react-router-dom';
+import { Button } from "./ui/Button";
 
 const expertise = [
   {
@@ -26,34 +25,26 @@ const expertise = [
   }
 ];
 
-export default function Hero() {
+export default function About() {
   return (
     <main className="bg-white">
       <section className="relative bg-gradient-to-br from-gray-50 to-green-50 pt-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24 md:py-32">
           <div className="text-center">
-            <span className="text-primary font-semibold tracking-wide uppercase">Leading Digital Agency</span>
+            <span className="text-primary font-semibold tracking-wide uppercase">About Us</span>
             <h1 className="mt-4 text-4xl md:text-6xl font-bold text-gray-900 mb-6">
-              Transform Your Digital
-              <span className="text-primary"> Presence</span>
+              AAA Technology
             </h1>
             <p className="text-xl text-gray-600 mb-8 max-w-2xl mx-auto">
-              We craft exceptional digital experiences and drive growth through innovative solutions in web development, mobile apps, and digital marketing.
+              AAA Technology is a leading software consultancy company with over 100 IT experts specializing in multiple domains. We deliver innovative solutions that drive business success.
             </p>
             <div className="flex flex-col sm:flex-row justify-center gap-4">
-             <Link to="/contact">
-             <Button variant="primary" size="lg" className="group">
-                Start Your Project
-                <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
+              <Button variant="primary" size="lg">
+                Contact Us
               </Button>
-             </Link>
-              <Link to="/work">
-              <Button 
-              
-              variant="outline" size="lg">
-                View Our Work
+              <Button variant="outline" size="lg">
+                Our Services
               </Button>
-              </Link>
             </div>
           </div>
         </div>
