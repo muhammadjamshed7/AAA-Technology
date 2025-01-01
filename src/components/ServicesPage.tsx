@@ -48,13 +48,13 @@ export default function ServicesPage() {
   return (
     <main className="bg-white">
       <section className="relative bg-gradient-to-br from-gray-50 to-green-50 pt-20">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24 md:py-32">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24 md:py-20">
           <div className="text-center">
-            <span className="text-primary font-semibold tracking-wide uppercase">Our Services</span>
-            <h1 className="mt-4 text-4xl md:text-6xl font-bold text-gray-900 mb-6">
+            <span className="text-primary text-2xl font-bold tracking-wide uppercase">Our Services</span>
+            <h1 className="mt-4 text-4xl md:text-6xl font-bold text-gray-900 mb-8">
               What We <span className="text-primary">Offer</span>
             </h1>
-            <p className="text-xl text-gray-600 mb-8 max-w-2xl mx-auto">
+            <p className="text-xl text-gray-600 mb-4 max-w-2xl mx-auto">
             We provide end-to-end digital services tailored to your unique needs, combining strategy, innovation, and technology.
             Our goal is to help your business thrive in the modern, fast-paced digital age.
             </p>
@@ -62,7 +62,7 @@ export default function ServicesPage() {
         </div>
         <div className="absolute bottom-0 left-0 right-0 h-32 bg-gradient-to-t from-white to-transparent"></div>
       </section>
-      <section id="services" className="py-20 bg-white">
+      <section id="services" className="py-10 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">

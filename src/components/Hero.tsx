@@ -1,6 +1,6 @@
 import { ArrowRight, Briefcase, Users, Globe, Award } from 'lucide-react';
 import { Button } from './ui/Button';
-import ContactCTA from "./ContactCTA";
+// import ContactCTA from "./ContactCTA";
 import { Link } from 'react-router-dom';
 
 const expertise = [
@@ -29,11 +29,11 @@ const expertise = [
 export default function Hero() {
   return (
     <main className="bg-white">
-      <section className="relative bg-gradient-to-br from-gray-50 to-green-50 pt-20">
+      <section className="relative bg-gradient-to-br from-gray-50 to-green-50 py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24 md:py-32">
           <div className="text-center">
-            <span className="text-primary font-semibold tracking-wide uppercase">Leading Digital Agency</span>
-            <h1 className="mt-4 text-4xl md:text-6xl font-bold text-gray-900 mb-6">
+            <span className="text-primary text-2xl font-bold tracking-wide uppercase">Leading Digital Agency</span>
+            <h1 className="mt-4 text-4xl md:text-6xl font-bold text-gray-900 my-6">
               Transform Your 
               <span className="text-primary"> Digital Presence</span>
             </h1>

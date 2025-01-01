@@ -1,8 +1,12 @@
-import React from 'react';
 import { Facebook, Instagram, Linkedin } from 'lucide-react';
-import { Link } from 'react-router-dom';
+import { Link,useNavigate } from 'react-router-dom';
 
 export default function Footer() {
+  const navigate = useNavigate();
+  const handleNavigation = (path: string) => {
+    navigate(path);
+    window.scrollTo(0, 0);
+  };
   return (
     <footer className="bg-gray-900 text-white py-12">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -38,19 +42,28 @@ export default function Footer() {
             <h4 className="text-lg font-semibold mb-4">Services</h4>
             <ul className="space-y-2">
               <li>
-                <Link to="/services/web-development" className="text-gray-400 hover:text-primary transition">
+                <button onClick={()=>handleNavigation("/services/web-development") }
+
+                
+                 className="text-gray-400 hover:text-primary transition">
                   Web Development
-                </Link>
+                  </button>
               </li>
               <li>
-                <Link to="/services/digital-marketing" className="text-gray-400 hover:text-primary transition">
+              <button onClick={()=>handleNavigation("/services/digital-marketing") }
+                className="text-gray-400 hover:text-primary transition">
                   Digital Marketing
-                </Link>
+                </button>
               </li>
               <li>
-                <Link to="/services/ecommerce" className="text-gray-400 hover:text-primary transition">
+                <button
+                onClick={()=>handleNavigation("/services/ecommerce") }
+                
+
+                
+                 className="text-gray-400 hover:text-primary transition">
                   E-Commerce
-                </Link>
+                </button>
               </li>
             </ul>
           </div>
