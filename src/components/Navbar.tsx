@@ -15,9 +15,10 @@ export default function Navbar() {
 
             <span className="text-5xl font-bold cursor-pointer text-primary">
             <img
-                src="src/assets/aaatech.png"
+                src="../../public/assets/images/technologo-logo.png"
                 
-                className="mt-2 h-24 w-[300px] object-cover"
+                className="mt-2 h-auto w-96
+                 object-cover"
               />
             </span>
             </Link>
