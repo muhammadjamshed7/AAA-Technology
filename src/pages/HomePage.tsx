@@ -3,7 +3,7 @@ import Services from '../components/Services';
 import Stats from '../components/Stats';
 import FeaturedWork from '../components/FeaturedWork';
 import Testimonials from '../components/Testimonials';
-import BlogPreview from '../components/BlogPreview';
+// import BlogPreview from '../components/BlogPreview';
 import ContactCTA from '../components/ContactCTA';
 
 export default function HomePage() {
@@ -14,7 +14,7 @@ export default function HomePage() {
       <Stats />
       <FeaturedWork />
       <Testimonials />
-      <BlogPreview />
+      {/* <BlogPreview /> */}
       <ContactCTA />
     </main>
   );
