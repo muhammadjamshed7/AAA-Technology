@@ -1,5 +1,5 @@
 import React from 'react';
-import { Facebook, Twitter, Instagram, Linkedin } from 'lucide-react';
+import { Facebook, Instagram, Linkedin } from 'lucide-react';
 import { Link } from 'react-router-dom';
 
 export default function Footer() {
@@ -13,16 +13,16 @@ export default function Footer() {
               Transforming businesses through innovative digital solutions.
             </p>
             <div className="flex space-x-4 mt-6">
-              <a href="#" className="text-gray-400 hover:text-primary transition">
+              <a href="https://www.facebook.com/profile.php?id=61566395171281" className="text-gray-400 hover:text-primary transition">
                 <Facebook size={24} />
               </a>
-              <a href="#" className="text-gray-400 hover:text-primary transition">
+              {/* <a href="#" className="text-gray-400 hover:text-primary transition">
                 <Twitter size={24} />
-              </a>
-              <a href="#" className="text-gray-400 hover:text-primary transition">
+              </a> */}
+              <a href="https://www.instagram.com/aaadigitalltd/" className="text-gray-400 hover:text-primary transition">
                 <Instagram size={24} />
               </a>
-              <a href="#" className="text-gray-400 hover:text-primary transition">
+              <a href="https://www.linkedin.com/company/aaa-digital-marketing/posts/?feedView=all" className="text-gray-400 hover:text-primary transition">
                 <Linkedin size={24} />
               </a>
             </div>
