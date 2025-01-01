@@ -22,11 +22,11 @@ const team = [
     position: "Project Manager",
     image: "/assets/images/Jamshed_profile.png",
   },
-  {
-    name: "Rishaeel zai",
-    position: "Creative Director",
-    image: "/assets/images/raseel2.jpeg",
-  },
+  // {
+  //   name: "Rishaeel zai",
+  //   position: "Creative Director",
+  //   image: "/assets/images/raseel2.jpeg",
+  // },
 
   {
     name: "Atif Awan",
