@@ -17,7 +17,7 @@ export default function Navbar() {
             <img
                 src="src/assets/aaatech.png"
                 
-                className="h-24 w-[300px] object-cover"
+                className="mt-2 h-24 w-[300px] object-cover"
               />
             </span>
             </Link>
