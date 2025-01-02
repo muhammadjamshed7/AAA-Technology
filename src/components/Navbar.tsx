@@ -49,7 +49,7 @@ export default function Navbar() {
               to="/work"
               className="text-gray-700 hover:text-primary transition"
             >
-              Work
+              Portfolio
             </Link>
             <Link
               to="/blog"
