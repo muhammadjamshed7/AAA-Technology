@@ -32,6 +32,14 @@ export default function Navbar() {
               Home
             </Link>
             <Link
+              to="/about"
+              className="text-gray-700 hover:text-primary transition"
+            >
+              About
+            </Link>
+            
+            
+            <Link
               to="/services"
               className="text-gray-700 hover:text-primary transition"
             >
@@ -42,12 +50,6 @@ export default function Navbar() {
               className="text-gray-700 hover:text-primary transition"
             >
               Work
-            </Link>
-            <Link
-              to="/about"
-              className="text-gray-700 hover:text-primary transition"
-            >
-              About
             </Link>
             <Link
               to="/blog"

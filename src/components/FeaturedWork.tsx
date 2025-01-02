@@ -1,7 +1,8 @@
 import React from 'react';
 import { ArrowRight } from 'lucide-react';
 import { Button } from './ui/Button';
-import { Link } from 'react-router-dom';
+import { Link,useNavigate } from 'react-router-dom';
+
 
 const projects = [
   {
@@ -25,6 +26,11 @@ const projects = [
 ];
 
 export default function FeaturedWork() {
+  const navigate = useNavigate();
+  const handleCaseStudyClick = (path: string) => {
+    navigate(path);
+    window.scrollTo(0, 0);
+  };
   return (
     <section className="py-20 bg-gray-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -49,8 +55,8 @@ export default function FeaturedWork() {
                 <span className="text-primary font-semibold">{project.category}</span>
                 <h3 className="text-xl font-bold text-gray-900 mt-2 mb-3">{project.title}</h3>
                 <p className="text-gray-600 mb-4">{project.description}</p>
-                <Button variant="outline" size="sm" className="group">
-                  View Case Study
+                <Button variant="outline" size="sm" className="group" onClick={() => handleCaseStudyClick("/project")}>
+                  Learn more
                   <ArrowRight className="ml-2 h-4 w-4 group-hover:translate-x-1 transition-transform" />
                 </Button>
               </div>

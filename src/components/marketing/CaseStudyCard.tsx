@@ -1,4 +1,4 @@
-import React from 'react';
+
 import { ArrowRight } from 'lucide-react';
 import { Button } from '../ui/Button';
 
@@ -46,7 +46,7 @@ export function CaseStudyCard() {
                   ))}
                 </ul>
                 <Button variant="outline" size="sm" className="group">
-                  Read Case Study
+                  Learn More
                   <ArrowRight className="ml-2 h-4 w-4 group-hover:translate-x-1 transition-transform" />
                 </Button>
               </div>

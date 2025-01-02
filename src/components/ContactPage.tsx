@@ -51,21 +51,20 @@ export default function ContactForm() {
 
   return (
     <main className="bg-white">
-      <section className="relative bg-gradient-to-br from-gray-50 to-green-50 pt-20">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24 md:py-32">
+      <section className="relative bg-gradient-to-br from-gray-50 to-green-50 pt-10">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-14 md:py-22">
           <div className="text-center">
-            <span className="text-primary font-semibold tracking-wide uppercase">Questions?</span>
             <h1 className="mt-4 text-4xl md:text-6xl font-bold text-gray-900 mb-6">
               Contact <span className="text-primary">Us</span>
             </h1>
-            <p className="text-xl text-gray-600 mb-8 max-w-2xl mx-auto">
+            <p className="text-xl text-gray-600 mb-2 max-w-2xl mx-auto">
             We’d love to hear from you! Fill out the form below with your details and message, and our team will get back to you promptly.
             </p>
           </div>
         </div>
         <div className="absolute bottom-0 left-0 right-0 h-32 bg-gradient-to-t from-white to-transparent"></div>
       </section>
-      <section className="bg-white py-16 flex items-center justify-center">
+      <section className="bg-white py-2 flex items-center justify-center">
         <div className="min-w-6xl px-4 sm:px-6 lg:px-8 w-full">
           <form onSubmit={handleSubmit} className="max-w-2xl mx-auto space-y-6">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">

@@ -102,14 +102,14 @@ export default function Footer() {
                   Blog
                 </button>
               </li>
-              <li>
+              {/* <li>
                 <button
                   onClick={() => handleNavigation("/careers")}
                   className="text-gray-400 hover:text-primary transition"
                 >
                   Careers
                 </button>
-              </li>
+              </li> */}
               <li>
                 <button
                   onClick={() => handleNavigation("/contact")}
@@ -133,13 +133,13 @@ export default function Footer() {
               />
               <span>Business@aaa-digitalmarketing.com</span>
             </div>
-            <div className="flex items-center text-gray-400 mt-2">
+            {/* <div className="flex items-center text-gray-400 mt-2">
               <PhoneIcon
                 className="mr-2 cursor-pointer"
                 onClick={() => (window.location.href = "tel:+15551234567")}
               />
               <span>+1 (555) 123-4567</span>
-            </div>
+            </div> */}
             <div className="flex items-center text-gray-400 mt-4">
               <LocationOnIcon
                 className="mr-2 cursor-pointer"
