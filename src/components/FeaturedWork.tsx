@@ -55,22 +55,20 @@ export default function FeaturedWork() {
                 <span className="text-primary font-semibold">{project.category}</span>
                 <h3 className="text-xl font-bold text-gray-900 mt-2 mb-3">{project.title}</h3>
                 <p className="text-gray-600 mb-4">{project.description}</p>
-                <Button variant="outline" size="sm" className="group" onClick={() => handleCaseStudyClick("/project")}>
-                  Learn more
-                  <ArrowRight className="ml-2 h-4 w-4 group-hover:translate-x-1 transition-transform" />
-                </Button>
+                
               </div>
             </div>
           ))}
         </div>
         
         <div className="text-center mt-12">
-          <Link to="/work">
-            <Button variant="primary" size="lg" className="group">
+          
+            <Button variant="primary" size="lg" className="group"
+            onClick={() => handleCaseStudyClick('/work')}
+            >
               View All Projects
               <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
             </Button>
-          </Link>
         </div>
       </div>
     </section>

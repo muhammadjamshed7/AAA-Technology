@@ -18,10 +18,10 @@ export default function Footer() {
             {/* <h3 className="text-2xl font-bold mb-4">AAA Digital</h3> */}
             <img
               src="../../assets/images/logo-white.png"
-              className="mt-2 h-auto w-16
+              className="mt-2 h-11 w-16
                 object-cover"
             />
-            <p className="text-gray-400">
+            <p className="text-gray-400 mt-2">
               Transforming businesses through innovative digital solutions.
             </p>
             <div className="flex space-x-4 mt-6">

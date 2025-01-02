@@ -43,7 +43,7 @@ export default function Hero() {
             <div className="flex flex-col sm:flex-row justify-center gap-4">
              <Link to="/contact">
              <Button variant="primary" size="lg" className="group">
-                Start Your Project
+                Get a Quote
                 <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
               </Button>
              </Link>
@@ -84,7 +84,7 @@ export default function Hero() {
       <section className="bg-gradient-to-br from-gray-50 to-green-50 py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
-            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Our <span className="text-primary">Mission</span></h2>
+            <h2 className="text-5xl md:text-5xl font-bold text-gray-900 mb-4">Our <span className="text-primary">Mission</span></h2>
             <p className="text-xl text-gray-600 max-w-2xl mx-auto italic">
             "Our mission is to deliver innovative, client-centric solutions that fuel business growth. We are committed to providing exceptional value, ensuring that our clients achieve long-term success in the ever-evolving digital landscape."
             </p>
