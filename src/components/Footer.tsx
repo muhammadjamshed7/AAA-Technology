@@ -1,7 +1,6 @@
-import { Facebook, Instagram, Linkedin } from "lucide-react";
-import { Link, useNavigate } from "react-router-dom";
+import { Facebook, Linkedin } from "lucide-react";
+import { useNavigate } from "react-router-dom";
 import EmailIcon from "@mui/icons-material/Email";
-import PhoneIcon from "@mui/icons-material/Phone";
 import LocationOnIcon from "@mui/icons-material/LocationOn";
 
 export default function Footer() {
@@ -13,7 +12,7 @@ export default function Footer() {
   return (
     <footer className="bg-gray-900 text-white py-12">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-4 gap-4">
           <div>
             {/* <h3 className="text-2xl font-bold mb-4">AAA Digital</h3> */}
             <img
@@ -34,12 +33,12 @@ export default function Footer() {
               {/* <a href="#" className="text-gray-400 hover:text-primary transition">
                 <Twitter size={24} />
               </a> */}
-              <a
+              {/* <a
                 href="https://www.instagram.com/aaadigitalltd/"
                 className="text-gray-400 hover:text-primary transition"
               >
                 <Instagram size={24} />
-              </a>
+              </a> */}
               <a
                 href="https://www.linkedin.com/company/aaa-digital-marketing/posts/?feedView=all"
                 className="text-gray-400 hover:text-primary transition"
@@ -84,7 +83,6 @@ export default function Footer() {
           <div>
             <h4 className="text-lg font-semibold mb-4">Company</h4>
             <ul className="space-y-2">
-              
               <li>
                 <button
                   onClick={() => handleNavigation("/about")}
@@ -93,7 +91,7 @@ export default function Footer() {
                   About
                 </button>
               </li>
-              
+
               <li>
                 <button
                   onClick={() => handleNavigation("/blog")}
@@ -133,23 +131,17 @@ export default function Footer() {
               />
               <span>Business@aaa-digitalmarketing.com</span>
             </div>
-            {/* <div className="flex items-center text-gray-400 mt-2">
-              <PhoneIcon
-                className="mr-2 cursor-pointer"
-                onClick={() => (window.location.href = "tel:+15551234567")}
-              />
-              <span>+1 (555) 123-4567</span>
-            </div> */}
-            <div className="flex items-center text-gray-400 mt-4">
-              <LocationOnIcon
-                className="mr-2 cursor-pointer"
-                onClick={() =>
-                  window.open(
-                    "https://www.google.com/maps/place/Pennsylvania,+USA",
-                    "_blank"
-                  )
-                }
-              />
+
+            <div
+              className="flex items-center text-gray-400 mt-4 cursor-pointer"
+              onClick={() =>
+                window.open(
+                  "https://www.google.com/maps/place/Pennsylvania,+USA",
+                  "_blank"
+                )
+              }
+            >
+              <LocationOnIcon className="mr-2 cursor-pointer" />
               <span>Headquarter: Pennsylvania, USA</span>
             </div>
           </div>

@@ -4,11 +4,11 @@ import { Card, CardContent, CardMedia, Typography, Grid } from "@mui/material";
 import { Button } from "./ui/Button";
 
 const team = [
-  {
-    name: "Tahir Khan",
-    position: "CEO",
-    image: "/assets/images/tahir.jpeg",
-  },
+  // {
+  //   name: "Tahir Khan",
+  //   position: "CEO",
+  //   image: "/assets/images/tahir.jpeg",
+  // },
   {
     name: "Muhammad Haseeb Abbas",
     position: "Managing Director",
@@ -19,22 +19,22 @@ const team = [
     position: "Head of Marketing",
     image: "/assets/images/juni.JPG",
   },
-  {
-    name: "Muhammad Jamshed",
-    position: "Project Manager",
-    image: "/assets/images/Jamshed_profile.png",
-  },
+  // {
+  //   name: "Muhammad Jamshed",
+  //   position: "Project Manager",
+  //   image: "/assets/images/Jamshed_profile.png",
+  // },
   {
     name: "Rishaeel zai",
     position: "Creative Director",
     image: "/assets/images/raseel2.jpeg",
   },
 
-  {
-    name: "Atif Awan",
-    position: "Full Stack Developer",
-    image: "/assets/images/random.jpeg",
-  },
+  // {
+  //   name: "Atif Awan",
+  //   position: "Full Stack Developer",
+  //   image: "/assets/images/random.jpeg",
+  // },
 ];
 
 export default function About() {
